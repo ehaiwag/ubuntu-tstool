@@ -1,5 +1,5 @@
 # ubuntu-tstool
-This docker image provides some basic trouble shooting tools to debug some issues in hostOS. 
+This docker image provides some basic trouble shooting tools(strace,tcpdump,ethtool and iostat) to debug some issues in hostOS. 
 
 ## Build the image
 docker build -t ubuntu/tstool:latest
